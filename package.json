@@ -1,0 +1,19 @@
+{
+  "name": "fastify-realtime-chat",
+  "description": "Sistema de chat en tiempo real con Fastify y WebSockets",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node index.ts",
+    "dev": "node --watch index.ts"
+  },
+  "keywords": ["fastify", "websockets", "chat", "realtime"],
+  "author": "Francis Castillo",
+  "license": "MIT",
+  
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "@fastify/websocket": "^11.2.0",
+    "fastify": "^5.4.0"
+  }
+}
